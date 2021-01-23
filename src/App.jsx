@@ -35,7 +35,7 @@ const App = () => {
         break;
       default:
         addChats({
-          text: selectAnswer,
+          text: selectedAnswer,
           type: "answer"
         })
 
