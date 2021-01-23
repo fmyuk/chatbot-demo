@@ -72,7 +72,7 @@ const App = () => {
       setDataset(initDataset);
       displayNextQuestion(currentId, initDataset[currentId]);
       const initAnswer = "";
-      this.selectAnswer(initAnswer, this.state.currentId)
+      selectAnswer(initAnswer, currentId)
     })();
     // eslint-disable-next-line
   }, [])
